@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const divbutt = document.getElementById("divbutt");
+    const holadiv = document.getElementById("divbutt");
 
-    divbutt.addEventListener("click", function () {
+    holadiv.addEventListener("click", function () {
         alert('Hola! Soy el div');
     });
 });
