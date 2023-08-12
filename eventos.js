@@ -5,3 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
         alert('Hola! Soy el div');
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const holabutt = document.getElementById("butt");
+
+    holabutt.addEventListener("click", function () {
+        alert('Hola!');
+    });
+});
